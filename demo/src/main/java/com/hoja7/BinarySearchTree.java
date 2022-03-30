@@ -1,15 +1,24 @@
 package com.hoja7;
+/**
+ * Universidad del Valle de Guatemala 
+ * Algoritmos y estructuras de datos
+ * @author Diana Díaz 21066
+ * @author Mario Puente 21290
+ * @version 1.0
+ */
 
+ //imports
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Stack;
 
 /**
- * HDT7 - Data Structures
+ * HDT7
  * E-Reference: https://stackoverflow.com/questions/11263244/java-how-do-i-implement-a-generic-binary-search-tree
  */
 
+ /**esta es la clase que busca el arbol  */
 public class BinarySearchTree< T extends Comparable<Association>>  {
     public class TNode<T extends Comparable<T>> {
         T data;

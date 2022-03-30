@@ -1,6 +1,15 @@
 package com.hoja7;
+/**
+ * Universidad del Valle de Guatemala 
+ * Algoritmos y estructuras de datos
+ * @author Diana Díaz 21066
+ * @author Mario Puente 21290
+ * @version 1.0
+ */
 
+ /**es la clase Main */
 
+ //imports
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
